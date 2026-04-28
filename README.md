@@ -18,3 +18,15 @@ Unlike simple detection scripts, BioEdge uses **Sensor Fusion** to make high-lev
 - **AI Models:** MediaPipe BlazeFace, FaceMesh (Refined Iris), and BlazePose
 - **Language:** Python 3.x
 - **Libraries:** OpenCV, NumPy
+
+- ##  Mathematical Foundations
+
+### Eye Aspect Ratio (EAR)
+To determine drowsiness, we calculate the EAR using the Euclidean distance between vertical eye landmarks ($p_2, p_6, p_3, p_5$) and horizontal landmarks ($p_1, p_4$):
+
+$$EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2||p_1 - p_4||}$$
+
+
+
+### Postural Inclination
+The system monitors the horizontal displacement ($\Delta x$) between the ear and shoulder landmarks to detect a "forward head poke" (text neck), a primary indicator of poor ergonomic posture.
