@@ -38,6 +38,16 @@ The system monitors the horizontal displacement ($\Delta x$) between the ear (La
 
 ---
 
+
+
+###  Upcoming Phase: UI & UX Enhancement
+The next development sprint focuses on transitioning from a developer-centric HUD to a production-ready dashboard:
+- **Alert Visuals:** Implementing full-screen color overlays (Red/Amber) for critical safety alerts.
+- **Toggle Controls:** Adding a GUI sidebar to adjust EAR and Posture sensitivity thresholds without restarting the script.
+- **Telemetry Dashboard:** Real-time graphing of blink frequency and attention scores.
+
+
+ ---
 ## Installation & Usage
 
 ### 1. Prerequisites
