@@ -67,6 +67,15 @@ The next development sprint focuses on transitioning from a developer-centric HU
 - **Final Submission:** Finalizing documentation and video demonstration.
 
 
+## 📸 Development Progress (WIP Screenshots)
+
+| Feature | System Visualization | Description |
+| :--- | :--- | :--- |
+| **Ocular Tracking** | ![EAR Tracking](./media/ear_demo.png) | Real-time Eye Aspect Ratio (EAR) calculation for drowsiness detection. |
+| **Skeletal Pose** | ![Posture Demo](./media/pose_demo.png) | Exoskeleton mapping for neck inclination and ergonomic analysis. |
+| **Gaze Logic** | ![Gaze Demo](./media/gaze_demo.png) | Iris landmark isolation for distraction monitoring. |
+
+
 
  ---
 ## Installation & Usage
