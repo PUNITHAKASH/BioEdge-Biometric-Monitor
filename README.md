@@ -49,5 +49,13 @@ Ensure your Jetson Nano is running JetPack 4.6+ and has a camera connected.
 git clone [https://github.com/PUNITHAKASH/BioEdge-Biometric-Monitor.git](https://github.com/PUNITHAKASH/BioEdge-Biometric-Monitor.git)
 cd BioEdge-Biometric-Monitor
 
+
+
+###  Upcoming Phase: UI & UX Enhancement
+The next development sprint focuses on transitioning from a developer-centric HUD to a production-ready dashboard:
+- **Alert Visuals:** Implementing full-screen color overlays (Red/Amber) for critical safety alerts.
+- **Toggle Controls:** Adding a GUI sidebar to adjust EAR and Posture sensitivity thresholds without restarting the script.
+- **Telemetry Dashboard:** Real-time graphing of blink frequency and attention scores.
+
 # Install dependencies
 pip3 install -r requirements.txt
