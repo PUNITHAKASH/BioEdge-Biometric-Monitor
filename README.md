@@ -72,12 +72,12 @@ The next development sprint focuses on transitioning from a developer-centric HU
 
 | Feature | System Visualization | Description |
 | :--- | :--- | :--- |
-| **Ocular Tracking** | ![EAR Tracking](./media/ear_demo.png) | Real-time Eye Aspect Ratio (EAR) calculation for drowsiness detection. |
-| **Skeletal Pose** | ![Posture Demo](./media/pose_demo.png) | Exoskeleton mapping for neck inclination and ergonomic analysis. |
-| **Gaze Logic** | ![Gaze Demo](./media/gaze_demo.png) | Iris landmark isolation for distraction monitoring. |
-| **Persistent ID** | ![ID Tracking](./media/id_demo.png) | Centroid-based tracking to maintain user identity across frames. |
-| **Sensor Fusion** | ![Sleep Alert](./media/sleep_demo.png) | Logic-gate trigger: Combining EAR and Posture for 'SLEEP!!' alerts. |
-| **Blink Monitor** | ![Blink Demo](./media/blink_demo.png) | Temporal tracking: Triggers 'BLINK ALERT' if no blink is detected for 10s. |
+| **Ocular Tracking** | ![EAR Tracking](./media/ear_demo.png.jpeg) | Real-time Eye Aspect Ratio (EAR) calculation for drowsiness detection. |
+| **Skeletal Pose** | ![Posture Demo](./media/pose_demo.png.jpeg) | Exoskeleton mapping for neck inclination and ergonomic analysis. |
+| **Gaze Logic** | ![Gaze Demo](./media/gaze_demo.png.jpeg) | Iris landmark isolation for distraction monitoring. |
+| **Persistent ID** | ![ID Tracking](./media/id_demo.png.jpeg) | Centroid-based tracking to maintain user identity across frames. |
+| **Sensor Fusion** | ![Sleep Alert](./media/sleep_demo.png.jpeg) | Logic-gate trigger: Combining EAR and Posture for 'SLEEP!!' alerts. |
+| **Blink Monitor** | ![Blink Demo](./media/blink_demo.png.jpeg) | Temporal tracking: Triggers 'BLINK ALERT' if no blink is detected for 10s. |
 
 
  ---
