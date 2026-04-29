@@ -60,6 +60,7 @@ The next development sprint focuses on transitioning from a developer-centric HU
 - **Advanced HUD:** Transitioning to a human-centric dashboard with semi-transparent overlays.
 - **Alert Visuals:** Full-screen color-coded alerts for sleep and distraction.
 - **CSV Data Logging:** Automated background logging for session analytics.
+- "Development of ui_overlay.py for a modular Frontend/Backend separation."
 
 ### Phase 3: Final Testing & Thesis (Due: May 15)
 - **Edge Optimization:** Maximizing FPS on Jetson Nano hardware.
