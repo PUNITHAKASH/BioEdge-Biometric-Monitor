@@ -82,11 +82,7 @@ cd BioEdge-Biometric-Monitor
 
 
 
-###  Upcoming Phase: UI & UX Enhancement
-The next development sprint focuses on transitioning from a developer-centric HUD to a production-ready dashboard:
-- **Alert Visuals:** Implementing full-screen color overlays (Red/Amber) for critical safety alerts.
-- **Toggle Controls:** Adding a GUI sidebar to adjust EAR and Posture sensitivity thresholds without restarting the script.
-- **Telemetry Dashboard:** Real-time graphing of blink frequency and attention scores.
+
 
 # Install dependencies
 pip3 install -r requirements.txt
