@@ -74,8 +74,9 @@ pip3 install -r requirements.txt
 
 
 ---
+---
 
-## Project Roadmap (WIP Status)
+##  Project Roadmap (WIP Status)
 
 ### Phase 1: Core Logic (Current) - COMPLETED
 - [x] Multi-modal sensor fusion (Face Mesh + Pose Exoskeleton).
