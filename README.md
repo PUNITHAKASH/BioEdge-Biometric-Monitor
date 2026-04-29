@@ -47,6 +47,27 @@ The next development sprint focuses on transitioning from a developer-centric HU
 - **Telemetry Dashboard:** Real-time graphing of blink frequency and attention scores.
 
 
+---
+
+##  Project Roadmap (WIP Status)
+
+### Phase 1: Core Logic (Current) - COMPLETED
+- [x] Multi-modal sensor fusion (Face Mesh + Pose Exoskeleton).
+- [x] Persistent ID tracking logic for multi-user stability.
+- [x] Mathematical modeling for EAR and Neck Inclination.
+
+### Phase 2: UI & Data Integration (Due: May 5)
+- **Advanced HUD:** Transitioning to a human-centric dashboard with semi-transparent overlays.
+- **Alert Visuals:** Full-screen color-coded alerts for sleep and distraction.
+- **CSV Data Logging:** Automated background logging for session analytics.
+
+### Phase 3: Final Testing & Thesis (Due: May 15)
+- **Edge Optimization:** Maximizing FPS on Jetson Nano hardware.
+- **Stress Testing:** Validating system accuracy over long-duration monitoring.
+- **Final Submission:** Finalizing documentation and video demonstration.
+
+
+
  ---
 ## Installation & Usage
 
@@ -73,22 +94,4 @@ pip3 install -r requirements.txt
 
 
 
----
----
 
-##  Project Roadmap (WIP Status)
-
-### Phase 1: Core Logic (Current) - COMPLETED
-- [x] Multi-modal sensor fusion (Face Mesh + Pose Exoskeleton).
-- [x] Persistent ID tracking logic for multi-user stability.
-- [x] Mathematical modeling for EAR and Neck Inclination.
-
-### Phase 2: UI & Data Integration (Due: May 5)
-- **Advanced HUD:** Transitioning to a human-centric dashboard with semi-transparent overlays.
-- **Alert Visuals:** Full-screen color-coded alerts for sleep and distraction.
-- **CSV Data Logging:** Automated background logging for session analytics.
-
-### Phase 3: Final Testing & Thesis (Due: May 15)
-- **Edge Optimization:** Maximizing FPS on Jetson Nano hardware.
-- **Stress Testing:** Validating system accuracy over long-duration monitoring.
-- **Final Submission:** Finalizing documentation and video demonstration.
