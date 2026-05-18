@@ -72,11 +72,6 @@ All screenshots captured live on the Jetson Nano.
 |:---:|:---:|
 | ![Inspector](media/demo_inspector.png) | ![Inspector 2](media/demo_inspector2.png) |
 
-###  System Demonstration
-
-<video src="Media/bioedge.mp4" width="100%" controls autoplay loop muted>
-  Your browser does not support the video tag.
-</video>
 
 </div>
 
@@ -87,6 +82,14 @@ The **Person Inspector** is a separate left-docked dialog that shows full biomet
 - **Re-ID confidence** — shows match % when a person returns to frame
 - **Alert history log** — last 30 status changes with `HH:MM:SS` timestamps, colour-coded by alert type
 - **AWAY persistence** — last-known values frozen when person leaves; ID reconnects automatically on return
+
+---
+
+###  System Demonstration
+
+<video src="Media/bioedge.mp4" width="100%" controls autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
 
 ---
 
