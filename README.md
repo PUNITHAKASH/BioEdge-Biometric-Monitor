@@ -72,6 +72,12 @@ All screenshots captured live on the Jetson Nano.
 |:---:|:---:|
 | ![Inspector](media/demo_inspector.png) | ![Inspector 2](media/demo_inspector2.png) |
 
+###  System Demonstration
+
+<video src="Media/bioedge.mp4" width="100%" controls autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
+
 </div>
 
 The **Person Inspector** is a separate left-docked dialog that shows full biometric detail for any selected person:
