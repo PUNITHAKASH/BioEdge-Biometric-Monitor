@@ -85,9 +85,11 @@ The **Person Inspector** is a separate left-docked dialog that shows full biomet
 
 ---
 
+
 ###  System Demonstration
 
-<video src="media/bioedge.mp4" width="100%" controls autoplay loop muted></video>
+[[video](https://github.com/user-attachments/assets/76b074c9-f78d-408b-8e4b-fcbcd57784c0)](https://github.com/user-attachments/assets/76b074c9-f78d-408b-8e4b-fcbcd57784c0)
+
 
 ---
 
