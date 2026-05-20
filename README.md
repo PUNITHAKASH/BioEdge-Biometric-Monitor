@@ -267,35 +267,27 @@ BioEdge-Biometric-Monitor/
 
 ## Roadmap
 
-### ✅ Completed
-- [x] EAR drowsiness with 3-frame recovery guard
-- [x] Head-pose corrected gaze ratio
-- [x] 4-check posture engine with exoskeleton overlay
-- [x] Blink detection with 40ms–400ms duration gate
-- [x] Multi-person tracking up to 5 persons simultaneously
-- [x] Persistent person ID — 91-point pairwise face geometry re-ID
-- [x] Person Inspector with dropdown selector, 8 metric cards, alert log
-- [x] HUD collision avoidance — no overlapping info boxes
-- [x] Distance zones NEAR/MED/FAR/TOO FAR with metric suppression
-- [x] Monitoring lock — focus on one person, dim others
-- [x] UI scaling system for small Jetson Nano monitors
-- [x] ~28 FPS solo / ~7 FPS 5-person stress test on Jetson Nano
+###  Completed
+-  EAR drowsiness with 3-frame recovery guard
+-  Head-pose corrected gaze ratio
+-  4-check posture engine with exoskeleton overlay
+-  Blink detection with 40ms–400ms duration gate
+-  Multi-person tracking up to 5 persons simultaneously
+-  Persistent person ID — 91-point pairwise face geometry re-ID
+-  Person Inspector with dropdown selector, 8 metric cards, alert log
+-  HUD collision avoidance — no overlapping info boxes
+-  Distance zones NEAR/MED/FAR/TOO FAR with metric suppression
+-  Monitoring lock — focus on one person, dim others
+-  UI scaling system for small Jetson Nano monitors
+-  ~28 FPS solo / ~7 FPS 5-person stress test on Jetson Nano
 
-### 🔜 Future Work
-- [ ] GPIO buzzer alert on Jetson Nano for `SLEEP!!` trigger
-- [ ] Neural face embedding (MobileNetV2) for stronger re-ID
-- [ ] Multi-camera support with cross-camera person handoff
-- [ ] Web dashboard (FastAPI + React) for remote monitoring
-- [ ] Per-session CSV export for analytics
+###  Future Work
+-  GPIO buzzer alert on Jetson Nano for `SLEEP!!` trigger
+-  Neural face embedding (MobileNetV2) for stronger re-ID
+-  Multi-camera support with cross-camera person handoff
+-  Web dashboard (FastAPI + React) for remote monitoring
+-  Per-session CSV export for analytics
 
----
-
-## Known Limitations
-
-- **Pose is single-person only** — MediaPipe Pose doesn't support multi-person. Skeleton applied to closest/selected person only.
-- **Re-ID is geometry-based** — not a neural face recogniser. Very similar faces may occasionally share an ID.
-- **Far-distance metrics suppressed** — EAR and gaze shown as `N/A` when face is too small for reliable iris detection.
-- **Session-only memory** — Alert history and IDs reset on app restart. No disk writes by default.
 
 ---
 
