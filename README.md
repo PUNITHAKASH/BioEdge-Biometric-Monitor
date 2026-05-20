@@ -1,3 +1,8 @@
+##  Repository & Reference
+* **Official Project Link:** [https://github.com/PUNITHAKASH/BioEdge-Biometric-Monitor](https://github.com/PUNITHAKASH/BioEdge-Biometric-Monitor)
+* **Author:** PUNITHAKASH
+* **Platform:** NVIDIA Jetson Nano (Embedded Edge AI)
+
 # BioEdge AI — Real-Time Multi-Person Biometric Monitor
 
 <div align="center">
